@@ -6362,7 +6362,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #117a8b !important;
+  background-color:  #28a745 !important;
 }
 
 .bg-secondary {
@@ -6392,7 +6392,7 @@ button.bg-success:focus {
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #117a8b !important;
+  background-color:  #28a745 !important;
 }
 
 .bg-warning {
@@ -6460,7 +6460,7 @@ button.bg-dark:focus {
 }
 
 .border-left {
-  border-left: 1px solid #dee2e6 !important;
+  border-left: 1px solid #c !important;
 }
 
 .border-0 {
