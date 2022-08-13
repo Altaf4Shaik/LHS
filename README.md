@@ -1,1 +1,1 @@
-# LHS
+--- permalink: /index.html ---
