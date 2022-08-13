@@ -9831,7 +9831,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .team .team-social {
   top: 0;
-  background: rgba(23, 162, 184, 0.8);
+  background: #28a745d9;
   opacity: 0;
   z-index: 1;
   transition: .5s;
