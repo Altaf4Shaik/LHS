@@ -9526,7 +9526,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #17a2b8 !important;
+  color: #28a745 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9550,7 +9550,7 @@ a.text-success:hover, a.text-success:focus {
 }
 
 .text-info {
-  color: #17a2b8 !important;
+  color: #28a745 !important;
 }
 
 a.text-info:hover, a.text-info:focus {
@@ -9719,7 +9719,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: inline-block;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #17a2b8;
+  color: #28a745;
 }
 
 .section-title span {
@@ -9735,7 +9735,7 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #17a2b8;
+  background: #28a745;
 }
 
 [class^=flaticon-]:before,
@@ -9772,7 +9772,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #17a2b8;
+  color: #28a745;
 }
 
 @media (max-width: 991.98px) {
@@ -9803,7 +9803,7 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
   justify-content: center;
   color: #00394f;
-  background: #17a2b8;
+  background: #28a745;
   border-radius: 30px;
   font-size: 18px;
   opacity: .1;
@@ -9856,7 +9856,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: #17a2b8;
+  background: #28a745;
 }
 
 .contact-form .help-block ul {
