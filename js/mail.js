@@ -10,17 +10,17 @@
 
 firebase.initializeApp(firebaseConfig);
 
-const contactFormDB = firebase.database().ref('contactForm');
-'
-document.getElementById('contactForm').addEventListener('submit',submitForm);
+const contactFormDB = firebase.database().ref("contactForm");
+
+document.getElementById('contactForm').addEventListener("submit",submitForm);
 
 function submitForm(e){
  e.preventDefault();
  
- var name = getElementVal('name');
- var emailid = getElementVal('email');
- var subject = getElementVal('subject');
- var msgContent = getElementVal('message');  
+ var name = getElementVal("name");
+ var emailid = getElementVal("email");
+ var subject = getElementVal("subject");
+ var msgContent = getElementVal("message");  
  
  saveMessages(name, email, subject, message);
 };
@@ -29,9 +29,9 @@ const saveMessages = (name, emailid, subject, msgContent) => {
  var newContactForm = contactFormDB.push();
  newContactForm.set({
   name : name,
-  emailid : email,
+  emailid : emailid,
   subject : subject,
-  msgContent : message,
+  msgContent : msgContent,
  });
 };
 
