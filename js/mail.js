@@ -9,3 +9,5 @@
   };
 
 firebase.initializeApp(firebaseConfig);
+
+const contactFormDB = firebase.database().ref('contactForm');
