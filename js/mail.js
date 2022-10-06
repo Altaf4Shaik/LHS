@@ -11,3 +11,18 @@
 firebase.initializeApp(firebaseConfig);
 
 const contactFormDB = firebase.database().ref('contactForm');
+
+document.getElementById('contactForm').addEventListener('submit',submitForm);
+
+function submitForm(e){
+ e.preventDefault();
+ 
+ var name = getElementVal('name');
+ var emailid = getElementVal('email');
+ var subject = getElementVal('    ");
+ var msgContent = getElementVal('     ');                          
+}
+
+const getElementVal = (id) => {
+   return document.getElementById(id).value;
+}
